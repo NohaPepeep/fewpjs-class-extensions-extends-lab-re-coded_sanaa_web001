@@ -3,6 +3,7 @@ class Polygon {
   constructor(arr){
     this.arr=arr;
   }
+<<<<<<< HEAD
   get countSides(){
     return this.arr.length;
   } 
@@ -37,4 +38,10 @@ class Square  extends Polygon{
    get area(){
      return this.arr[0]**2;
    }
+=======
+  get countSides(arr){
+    return arr.length;
+  } 
+  
+>>>>>>> ea72e1ef566793a270ddc5d85d3ee8aa1ea6b8ba
 }
